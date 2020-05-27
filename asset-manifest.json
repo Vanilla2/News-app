@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/News-app/static/css/main.b74635e8.chunk.css",
-    "main.js": "/News-app/static/js/main.6dec7a78.chunk.js",
-    "main.js.map": "/News-app/static/js/main.6dec7a78.chunk.js.map",
-    "runtime-main.js": "/News-app/static/js/runtime-main.8b2e45d7.js",
-    "runtime-main.js.map": "/News-app/static/js/runtime-main.8b2e45d7.js.map",
-    "static/css/2.09cf91a0.chunk.css": "/News-app/static/css/2.09cf91a0.chunk.css",
-    "static/js/2.62089f21.chunk.js": "/News-app/static/js/2.62089f21.chunk.js",
-    "static/js/2.62089f21.chunk.js.map": "/News-app/static/js/2.62089f21.chunk.js.map",
-    "index.html": "/News-app/index.html",
-    "precache-manifest.403cfb9bbb3aefb4e9165c98188fec15.js": "/News-app/precache-manifest.403cfb9bbb3aefb4e9165c98188fec15.js",
-    "service-worker.js": "/News-app/service-worker.js",
-    "static/css/2.09cf91a0.chunk.css.map": "/News-app/static/css/2.09cf91a0.chunk.css.map",
-    "static/css/main.b74635e8.chunk.css.map": "/News-app/static/css/main.b74635e8.chunk.css.map",
-    "static/js/2.62089f21.chunk.js.LICENSE.txt": "/News-app/static/js/2.62089f21.chunk.js.LICENSE.txt"
+    "main.css": "/dev-vanilla.com/static/css/main.b74635e8.chunk.css",
+    "main.js": "/dev-vanilla.com/static/js/main.60baf44e.chunk.js",
+    "main.js.map": "/dev-vanilla.com/static/js/main.60baf44e.chunk.js.map",
+    "runtime-main.js": "/dev-vanilla.com/static/js/runtime-main.1d9ad5b4.js",
+    "runtime-main.js.map": "/dev-vanilla.com/static/js/runtime-main.1d9ad5b4.js.map",
+    "static/css/2.09cf91a0.chunk.css": "/dev-vanilla.com/static/css/2.09cf91a0.chunk.css",
+    "static/js/2.62089f21.chunk.js": "/dev-vanilla.com/static/js/2.62089f21.chunk.js",
+    "static/js/2.62089f21.chunk.js.map": "/dev-vanilla.com/static/js/2.62089f21.chunk.js.map",
+    "index.html": "/dev-vanilla.com/index.html",
+    "precache-manifest.2771ac92e89a99c11f73b20f4bececd5.js": "/dev-vanilla.com/precache-manifest.2771ac92e89a99c11f73b20f4bececd5.js",
+    "service-worker.js": "/dev-vanilla.com/service-worker.js",
+    "static/css/2.09cf91a0.chunk.css.map": "/dev-vanilla.com/static/css/2.09cf91a0.chunk.css.map",
+    "static/css/main.b74635e8.chunk.css.map": "/dev-vanilla.com/static/css/main.b74635e8.chunk.css.map",
+    "static/js/2.62089f21.chunk.js.LICENSE.txt": "/dev-vanilla.com/static/js/2.62089f21.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b2e45d7.js",
+    "static/js/runtime-main.1d9ad5b4.js",
     "static/css/2.09cf91a0.chunk.css",
     "static/js/2.62089f21.chunk.js",
     "static/css/main.b74635e8.chunk.css",
-    "static/js/main.6dec7a78.chunk.js"
+    "static/js/main.60baf44e.chunk.js"
   ]
 }
