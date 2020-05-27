@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+body{
+    margin: 0 !important;
+    font-family: 'Frank Ruhl Libre', serif !important;
+    background-color: rgb(226, 226, 226);
+}
+#body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.view-box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+}
+.view-text{
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.search-box{
+    justify-self: right;
+    display:flex;
+    align-items: center;
+    padding-right: 10px;
+}
+#loading-box{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#empty-box{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#empty-text{
+    font-size: 30px;
+}
+.search-input{
+    padding-left: 5px;
+    height: 20px;
+    border-radius: 5px;
+    border:1px solid black;
+    outline: none !important;
+}
+.search-text{
+    justify-self: flex-end;
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 15px 0;
+    margin-top: 13px !important;
+    margin-right: 5px;
+}
+.article-image{
+    border-radius: 5px 5px 6px 6px;
+    width: 100%;
+    grid-area:image;
+    border-bottom: 3px solid gray;
+}
+.article-title{
+    padding:10px;    
+    padding-bottom: 5px;
+    grid-area:title;  
+    font-size: 30px;  
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.article-author{
+    font-style: italic;
+    padding:10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 18px;
+    margin-top: 5px;
+    color: rgb(54, 54, 54);
+    grid-area:author;
+}
+.article-description{
+    padding:10px;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    grid-area:description;
+}
+#article-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.article{
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    /* border:1px solid rgb(54, 18, 18); */
+    margin: 10px 0 10px 0;
+    width: 70%;
+    display:grid;
+    grid-template-areas: 
+    "image"
+    "title"
+    "author"
+    "description";
+}
+@media only screen and (min-width: 1000px){
+    .article{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .article{
+        width: 100%;
+    }
+    .article-image{
+        border-radius: 0; 
+        border-radius: 0 0 6px 6px;
+    }
+    
+}
