@@ -1,1 +1,2 @@
 dev-vanilla.com
+www.dev-vanilla.com
